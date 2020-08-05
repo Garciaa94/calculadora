@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtNumbre1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number1"
+        />
+    <EditText
+        android:id="@+id/edtNumbre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="number2"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="suma"
+        android:text="@string/button_text"
+        tools:visibility="vissible" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="areaT"
+        android:text="@string/button_text1" />
+   <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="perimetoT"
+        android:text="@string/button_text5" />-->
+
+    <Button
+        android:id="@+id/btnborrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpiar"
+        android:text="@string/button_text2"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text=""
+        />
+
+</LinearLayout>

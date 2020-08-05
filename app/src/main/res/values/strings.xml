@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Mi Calculadora</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Suma</string>
+    <string name="button_text1">Area</string>
+    <string name="button_text2">BORRAR</string>
+    <string name="button_text5">Perimetro</string>
+
 </resources>
